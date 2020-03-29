@@ -1,0 +1,135 @@
+.login-bx{   
+    max-width: 1100px;
+    margin: 50px auto;
+    background-color: #fff;
+    border: #ddd 1px solid;
+    vertical-align: middle;
+    border-radius: 5px;
+    
+    display: table;
+}
+
+.login-bx>div.left{
+    padding: 127px 90px;
+    float: left;
+}
+.login-bx>div.left>h3{
+    font-weight: normal;
+    font-size: 34px;
+    color: #333;
+    line-height: 1;
+    margin: 0 0 40px 0;
+    text-align: center;
+}
+.login-bx>div.left>.id-pw{
+    width: 360px;
+    margin: 0 auto;
+}
+.login-bx>div.left>.id-pw>input[type=text]{
+    border: none;
+    border-bottom: #ccc 1px solid;
+    height: 36px;
+    line-height: 36px;
+    text-indent: 28px;
+    display: block;
+    width: 100%;
+}
+.login-bx>div.left>.id-pw>input[type=text].idtext{
+    background: url("../img/user.png") 0 50% no-repeat;
+    background-size: 20px;
+    margin-bottom: 20px;
+}
+.login-bx>div.left>.id-pw>input[type=text].pwtext{
+    background: url("../img/password.png") 0 50% no-repeat;
+    background-size: 20px;
+}
+.login-bx>div.left>.id-pw>input[type=button]{
+    background-color : #26C37B;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 50px;
+}
+.login-bx>div.left>.id-pw>input[type=button]:hover{
+    background-color : rgb(67, 197, 136);
+}
+.login-bx>div.left>.id-pw>a{
+    font-size: 12px;
+    color: gray;
+    float: right;
+    margin: 10px;
+}
+
+.login-bx>div.right{
+    width: 338px;
+    height: 490px;
+    padding: 90px 40px 0;
+    background-image: url("../img/login-right.PNG");
+    background-color: #88b048;
+    background-size: 420px 580px;
+    opacity: 0.75;
+    float: left;
+}
+.login-bx>div.right>h1{
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin-bottom: 130px;
+}
+.login-bx>div.right>dl{
+    position: relative;
+    padding: 10px 158px 10px 0;
+    margin: 0;
+    color: white;
+}
+
+.login-bx>div.right>dl>dd{
+    margin-inline-start: 0px;
+    margin: 5px 0 10px;
+    font-size: 15px;
+    color: #ddd;
+}
+
+.login-bx>div.right>dl>input[type=button]{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -10px;
+    width: 144px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: transparent;
+    line-height: 32px;
+    color: white; 
+    border: 2px solid white;
+}
+
+.login-bx>div.right>dl>input[type=button]:hover{
+    background-color: white;
+    color: #88b048;
+}
+.login-bx>div.right>dl {
+    border-top: #ddd 1px solid;
+    
+}
+
+#empty{
+    padding :100px 0;
+}
+
+#duc {
+    padding-left: 0;
+}
+
+body{
+    background-color: #f5f6fa;
+    margin: 0;
+    padding: 0;
+}
