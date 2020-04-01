@@ -1,0 +1,180 @@
+#nav-todaybest 
+.owl-carousel .item
+{
+    text-align:center;
+    background:#93e0e4; 
+    height:200px; 
+    line-height:200px; 
+    margin:10px;
+    position: relative;
+    z-index: 100; 
+
+}
+
+#nav-hotkeyword
+.owl-carousel .item{
+    text-align:center;
+    background-color: white;
+    border-radius: 25px;
+    margin:10px;
+    height: 50px;
+    box-shadow: 0 2px 5px 0 rgba(155,155,155,.2);
+}
+#nav-recommend
+.main-recommend{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#nav-recommend
+.owl-carousel .item{
+    text-align:center;
+    background:#93e0e4; 
+    height:200px; 
+    line-height:200px; 
+    margin:10px;
+    position: relative;
+    z-index: 100; 
+}
+
+#nav-todaybest
+{
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(155,155,155,.2);
+    width: 1100px; margin: 0 auto ;
+    margin-bottom: 130px;
+    padding: 20px;
+    height: auto;
+}
+
+#nav-hotkeyword{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 130px;  
+    padding: 0 5%;
+}
+
+#nav-todaybest>h1{
+    margin: 0;
+}
+#nav-hotkeyword .owl-nav{
+    margin-top: -26px;
+    position: absolute;
+    top: -40px;
+    width: 1100px;
+    padding-left: 1000px;
+    color: black;
+}
+.owl-nav i,
+.owl-dots i {
+    font-size: 48px;
+}
+
+#nav-todaybest .owl-nav{
+    margin-top: -10px;
+    position: absolute;
+    top: -40px;
+    width: 1100px;
+    padding-left: 1000px;
+    color: black;
+}
+
+#nav-todaybest .morebest{
+    margin-top: 20px;
+    margin-left: 914px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: auto;
+}
+
+#nav-recommend{
+    text-align: center;
+    background-color: rgb(30,30,30);
+    padding: 20px 0px;
+}
+#nav-recommend>h1{
+    color: white;
+}
+
+#best-banner{
+    width: 1100px;
+    height: 300px;
+    background: url("../img/best-banner.png");
+    background-size: 1100px 300px;
+    margin: 0 auto;
+}
+
+.owl-dots{
+    margin-top: 30px;
+}
+
+.owl-dot{
+    width: 360px;
+    display: inline-block;
+}
+
+.owl-dot .dot-image{
+    width: 64px;
+    height: 64px;
+    background: url("../img/insung.jpg");
+    background-size: 64px 64px;
+    border-radius: 5px;
+}
+
+.owl-dot .dot-info,
+.owl-dot .dot-image
+{
+    display: inline-block;
+}
+.owl-dot .dot-info>p{
+    margin: 0;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 200px;
+    color: white;
+}
+.owl-dot .dot-info>a{
+    float: left;
+    display: block;
+    color: #ccc;
+}
+.owl-nav button{
+    height: 48px;
+    width: 48px;
+}
+
+.owl-carousel.recommend{
+    margin-bottom: 20px;
+    border-bottom: #444 2px solid;
+}
+
+.recommend-bar{
+    position: relative;
+    top: 80px;
+    width: 264px;
+    margin: 0 auto;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    transition: transform 0.5s ease-in-out 0s;
+}
+.recommend-bar.rec1{
+    transform: translateX(0px);
+}
+.recommend-bar.rec2{
+    transform: translateX(364px);
+}
+.recommend-bar.rec3{
+    transform: translateX(728px);
+}

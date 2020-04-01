@@ -2,6 +2,22 @@
     line-height: 1.5em;
     text-decoration: none;
 }
+*:focus{
+    outline: none;
+}
+.header-alarm{
+    background-color:#36F2B8;
+    width: 100%;
+    height: 36px;
+    text-align: center;
+    margin-top: 173px;
+}
+
+body{
+    background-color: #f5f6fa;
+    margin: 0;
+    padding: 0;
+}
 
 #wrap {
     margin: 0;
@@ -12,12 +28,16 @@
 
 #header {  
     position: relative;
+    width: 100%;
     height: 128px;
     padding: 45px 0 0 0;  
     z-index: 5; 
     background-color: white;
-    margin-bottom: 100px;
     box-shadow: #cccccc 0px -2px 0px inset;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .top-header{
@@ -235,10 +255,12 @@
 }
 
 
+#empty{
+    padding :100px 0;
+}
 
 
-
-fieldset {
+.main-header fieldset {
   position: relative;
   float: left;
   margin-left: 40%;
@@ -250,8 +272,7 @@ fieldset {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
 }
 
-input,
-button {
+.main-header input,.main-header button {
   position: relative;
   width: 300px;
   height: 50px;
@@ -260,22 +281,22 @@ button {
   float: left;
 }
 
-input {
+.main-header input {
   color: #666;
   z-index: 2;
   border: 0 none;
 }
-input:focus {
+.main-header input:focus {
   outline: 0 none;
 }
-input:focus + button {
+.main-header input:focus + button {
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
 }
-input:focus + button .fa {
+.main-header input:focus + button .fa {
   -webkit-transform: translate(0px, 0);
       -ms-transform: translate(0px, 0);
           transform: translate(0px, 0);
@@ -284,7 +305,7 @@ input:focus + button .fa {
   color: #fff;
 }
 
-button {
+.main-header button {
   z-index: 1;
   width: 50px;
   border: 0 none;
@@ -298,7 +319,7 @@ button {
           transition-duration: 0.3s;
 }
 
-.fa-search {
+.main-header .fa-search {
   font-size: 1.4rem;
   color: black;
   z-index: 3;
@@ -311,5 +332,3 @@ button {
   -webkit-transition: all 0.1s ease-in-out;
           transition: all 0.1s ease-in-out;
 }
-
-
